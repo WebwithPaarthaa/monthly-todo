@@ -1,0 +1,47 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+.container{
+    width: 20%;
+    height: 700px;
+    text-align: left;
+    background-color: beige;
+    padding-inline-start: 5px;
+    padding-top: 10px;
+    position: relative;
+    z-index: 2;
+}
+
+.Mytasks{
+   padding-inline-start: 10px;
+   
+    }
+
+ol{
+    margin: 5px;
+}
+input{
+    padding: 5px;
+    margin:5px;
+   
+
+}
+
+
+.calender-box{
+    text-align: center;
+    background-color: azure;
+    flex-wrap: wrap;
+    position: relative;
+    bottom: 745px;
+    z-index: 1;
+
+}
+
+h1{
+    margin: 25px;
+    padding-top: 20px;
+    text-align: center;
+}
