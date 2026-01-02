@@ -1,39 +1,39 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My To-Do list</title>
-    <link rel="Stylesheet" href="style.css">
-    
+    <title>My To-Do List</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Playfair:ital,opsz,wght@0,5..1200,300..900;1,5..1200,300..900&display=swap"
+        rel="stylesheet">
+
 </head>
 
 <body>
-    <div class="container">
 
-        <h1>TASKS</h1>
-        
-        
 
-        <li class="Mytasks">
-            <h6>Task Bar</h6>
-            <input type="text" placeholder="Enter ur task">
-            <ol> Study(6hr)</ol>
-              <ol> Excercise</ol>
-                <ol> Walking </ol>
-                  <ol> 2k views for AB</ol>
-                    <ol> </ol>
-        </li>
+    <h1 id="yearLabel" class="year"></h1>
 
-        
+    <h1 class="TB">TaskBar</h1>
+    <div class="taskbar">
+        <input id="taskInput" placeholder="Enter task..." />
+        <button onclick="addTask()">Add Task</button>
+        <button onclick="saveProgress()">Save Progress</button>
+        <button onclick="resetTasks()">Reset Tasks</button>
+        <ul id="taskList"></ul>
     </div>
 
-    <div class="calender-box">
-        <h1>Month</h1>
+    <div class="calendar" id="calendar"></div>
+    <script src="script.js"></script>
 
-    </div>
-   
+
+    
+
 </body>
 
 </html>
-
