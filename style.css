@@ -135,7 +135,7 @@ body{
 
 
 
-@media (max-width: 360px) {
+@media (max-width: 600px) {
 
   body {
     padding: 10px;
@@ -197,6 +197,7 @@ body{
     font-size: 14px;
   }
 }
+
 
 
 
