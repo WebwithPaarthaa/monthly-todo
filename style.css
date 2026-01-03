@@ -1,4 +1,7 @@
 
+
+
+
 body{
   background-color:  #F5F7F4 ;
   font-family: "Playfair", serif;
@@ -135,6 +138,8 @@ body{
 
 
 
+
+
 @media (max-width: 600px) {
 
   body {
@@ -143,9 +148,11 @@ body{
 
 
   .year {
-    position: static;
+    position: absolute;
     text-align: center;
     margin-bottom: 10px;
+    left:1cm;
+    top: 520px;
   }
 
 
@@ -161,12 +168,13 @@ body{
     position: static;
     width: 100%;
     height: auto;
-    margin-bottom: 15px;
+    margin-bottom: 150px;
   }
 
   .TB {
     position: static;
-    text-align: center;
+    text-align:left;
+    
   }
 
  
@@ -177,7 +185,7 @@ body{
     overflow-x: hidden;
     overflow-y: auto;
     flex-direction: column;
-    padding: 10px;
+    padding: 30px;
   }
 
 
@@ -192,12 +200,16 @@ body{
     font-size: 16px;
   }
 
-  .weekday,
+  
   .month {
-    font-size: 14px;
+    font-size: 20px;
+  }
+
+  .weekday{
+    font-size: 40px;
+    color: #616060;
   }
 }
-
 
 
 
