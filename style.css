@@ -148,11 +148,9 @@ body{
 
 
   .year {
-    position: absolute;
+    position: static;
     text-align: center;
     margin-bottom: 10px;
-    left:1cm;
-    top: 490px;
   }
 
 
@@ -210,6 +208,7 @@ body{
     color: #616060;
   }
 }
+
 
 
 
